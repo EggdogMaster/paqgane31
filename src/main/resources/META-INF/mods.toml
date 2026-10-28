@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="paqgane"
+version="1.3.1"
+displayName="Paqgane"
+description='''
+Paqgane: the incarnated will of the real paq. A floating head AI companion that helps players, keeps an eye on the rules, and gives admins a shortcut.
+'''
+
+[[dependencies.paqgane]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.paqgane]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.paqgane]]
+modId="geckolib"
+mandatory=true
+versionRange="[4.4,)"
+ordering="AFTER"
+side="BOTH"
